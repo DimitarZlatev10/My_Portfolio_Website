@@ -13,10 +13,21 @@ const links = [
         label: 'Skills',
         icon: 'i-heroicons-wrench',
         to: `skills`
-    }, {
+    },
+    {
+        label: 'Projects',
+        icon: 'i-heroicons-beaker',
+        to: 'projects'
+    },
+    {
         label: 'Experience',
         icon: 'i-heroicons-briefcase',
         to: 'experience'
+    },
+    {
+        label: "Education",
+        icon: "i-heroicons-academic-cap",
+        to: 'education'
     },
     {
         label: 'About',
