@@ -1,4 +1,37 @@
 <script setup lang="ts">
+useHead({
+    title: 'Home',
+    meta: [
+        { name: 'description', content: 'Home Page of my Portfolio Website.' }
+    ]
+})
+
+const links = [
+    {
+        name: "My Skills",
+        link: '/skills'
+    },
+    {
+        name: "My Projects",
+        link: '/projects'
+    },
+    {
+        name: "My Experience",
+        link: '/experience'
+    },
+    {
+        name: "My Education",
+        link: '/education'
+    },
+    {
+        name: "About Me",
+        link: '/about'
+    },
+    {
+        name: "Contact Me",
+        link: '/contact'
+    },
+]
 </script>
 
 <template>
@@ -14,32 +47,11 @@
                     </p>
                     <div class="mt-8">
                         <ul class="space-y-4 text-center">
-                            <li class="pb-3">
+                            <li class="pb-3" v-for="link in links" :key="link.name">
                                 <NuxtLink
                                     class="px-6 py-3 bg-yellow-300 text-blue-500 font-semibold rounded-full hover:bg-yellow-400 transition duration-300"
-                                    to="/skills">
-                                    My Skills
-                                </NuxtLink>
-                            </li>
-                            <li class="pb-3">
-                                <NuxtLink
-                                    class="px-6 py-3 bg-yellow-300 text-blue-500 font-semibold rounded-full hover:bg-yellow-400 transition duration-300"
-                                    to="/experience">
-                                    My Experience
-                                </NuxtLink>
-                            </li>
-                            <li class="pb-3 w-full">
-                                <NuxtLink
-                                    class="px-6 py-3 bg-yellow-300 text-blue-500 font-semibold rounded-full hover:bg-yellow-400 transition duration-300"
-                                    to="/about">
-                                    About Me
-                                </NuxtLink>
-                            </li>
-                            <li class="pb-3">
-                                <NuxtLink
-                                    class="px-6 py-3 bg-yellow-300 text-blue-500 font-semibold rounded-full hover:bg-yellow-400 transition duration-300"
-                                    to="/contact">
-                                    Contact Me
+                                    :to="link.link">
+                                    {{ link.name }}
                                 </NuxtLink>
                             </li>
                         </ul>
@@ -90,7 +102,7 @@
 }
 
 /* Custom Styles */
-ul {
+/* ul {
     list-style: none;
     padding: 0;
     margin: 0;
@@ -125,5 +137,5 @@ li {
 
 .UHorizontalNavigation i {
     font-size: 2rem;
-}
+} */
 </style>
