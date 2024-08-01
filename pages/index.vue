@@ -76,10 +76,6 @@ const links = [
                 <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center animate-fade-in animation-delay-1">
                     <NuxtImg sizes="384px" src="/images/Me.webp" alt="Image of Myself" width="384" height="384"
                         class="rounded-full shadow-lg w-96 h-96 object-cover" />
-
-
-                    <!-- <img width="400" height="400" src="/images/Me.webp" alt="Image of Myself"
-                        class="rounded-full shadow-lg w-96 h-96 object-cover"> -->
                 </div>
             </div>
         </div>
@@ -104,42 +100,4 @@ const links = [
 .animation-delay-2 {
     animation-delay: 2s;
 }
-
-/* Custom Styles */
-/* ul {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-}
-
-li {
-    display: block;
-    width: fit-content;
-    margin: auto;
-}
-
-.UHorizontalNavigation {
-    display: flex;
-    gap: 1rem;
-}
-
-.UHorizontalNavigation a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    background-color: #fff;
-    border-radius: 50%;
-    color: #000;
-    transition: transform 0.3s;
-}
-
-.UHorizontalNavigation a:hover {
-    transform: scale(1.1);
-}
-
-.UHorizontalNavigation i {
-    font-size: 2rem;
-} */
 </style>
