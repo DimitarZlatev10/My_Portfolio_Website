@@ -53,6 +53,7 @@ export default defineNuxtConfig({
   },
   modules: [
     "@nuxt/ui",
+    "@nuxtjs/sitemap",
     [
       "nuxt-mail",
       {
