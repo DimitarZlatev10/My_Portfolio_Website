@@ -1,4 +1,12 @@
 <script setup>
+
+useHead({
+    title: 'Education',
+    meta: [
+        { name: 'description', content: 'Education Page of my Portfolio Website.' }
+    ]
+})
+
 const education = [
     {
         institution: "Technical University of Sofia",
