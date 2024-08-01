@@ -19,8 +19,8 @@ export default defineNuxtConfig({
           host: "smtp.gmail.com",
           port: 587,
           auth: {
-            user: "dimitarzlatev02@gmail.com",
-            pass: "yecu ykyp liag oxbn",
+            user: process.env.GMAIL_EMAIL,
+            pass: process.env.GMAIL_PASS,
           },
         },
       },
