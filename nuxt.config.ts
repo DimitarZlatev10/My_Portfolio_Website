@@ -40,6 +40,7 @@ export default defineNuxtConfig({
       "/education",
       "/about",
       "/contact",
+      "/thanks",
     ],
   },
   compatibilityDate: "2024-04-03",
@@ -54,6 +55,7 @@ export default defineNuxtConfig({
   modules: [
     "@nuxt/ui",
     "@nuxtjs/sitemap",
+    "@nuxt/image",
     [
       "nuxt-mail",
       {
@@ -71,5 +73,10 @@ export default defineNuxtConfig({
   ],
   router: {
     middleware: ["checkFormSubmitted"],
+  },
+  image: {
+    ipx: {
+      // IPX specific configurations if needed
+    },
   },
 });

@@ -74,8 +74,12 @@ const links = [
                     </div>
                 </div>
                 <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center animate-fade-in animation-delay-1">
-                    <img width="400" height="400" src="/images/Me.jpg" alt="Image of Myself"
-                        class="rounded-full shadow-lg w-96 h-96 object-cover">
+                    <NuxtImg sizes="384px" src="/images/Me.webp" alt="Image of Myself" width="384" height="384"
+                        class="rounded-full shadow-lg w-96 h-96 object-cover" />
+
+
+                    <!-- <img width="400" height="400" src="/images/Me.webp" alt="Image of Myself"
+                        class="rounded-full shadow-lg w-96 h-96 object-cover"> -->
                 </div>
             </div>
         </div>
