@@ -9,5 +9,24 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
-  modules: ["@nuxt/ui"],
+  modules: [
+    "@nuxt/ui",
+    [
+      "nuxt-mail",
+      {
+        message: { to: "dimitarzlatev02@gmail.com" },
+        smtp: {
+          host: "smtp.gmail.com",
+          port: 587,
+          auth: {
+            user: "dimitarzlatev02@gmail.com",
+            pass: "yecu ykyp liag oxbn",
+          },
+        },
+      },
+    ],
+  ],
+  router: {
+    middleware: ["checkFormSubmitted"],
+  },
 });

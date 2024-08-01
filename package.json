@@ -12,6 +12,7 @@
   "dependencies": {
     "@nuxt/ui": "^2.18.2",
     "nuxt": "^3.12.4",
+    "nuxt-mail": "^5.0.1",
     "vue": "latest"
   },
   "devDependencies": {
