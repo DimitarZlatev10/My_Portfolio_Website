@@ -38,18 +38,19 @@ const links = [
         label: 'Contact',
         icon: 'i-heroicons-envelope',
         to: 'contact'
-    }], [
-        {
-            icon: 'i-bxl:github',
-            to: 'https://github.com/DimitarZlatev10',
-            target: '_blank'
-        },
-        {
-            icon: 'i-logos:linkedin-icon',
-            to: 'https://www.linkedin.com/in/dimitar-zlatev-65b14225b/',
-            target: '_blank'
-        }
-    ]
+    }]
+    //  [
+    //     {
+    //         icon: 'i-bxl:github',
+    //         to: 'https://github.com/DimitarZlatev10',
+    //         target: '_blank'
+    //     },
+    //     {
+    //         icon: 'i-logos:linkedin-icon',
+    //         to: 'https://www.linkedin.com/in/dimitar-zlatev-65b14225b/',
+    //         target: '_blank'
+    //     }
+    // ]
 ]
 
 </script>

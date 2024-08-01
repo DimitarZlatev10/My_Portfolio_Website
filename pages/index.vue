@@ -74,7 +74,7 @@ const links = [
                     </div>
                 </div>
                 <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center animate-fade-in animation-delay-1">
-                    <img src="https://via.placeholder.com/400" alt="Example Image"
+                    <img width="400" height="400" src="https://via.placeholder.com/400" alt="Example Image"
                         class="rounded-full shadow-lg w-72 h-72 object-cover">
                 </div>
             </div>
