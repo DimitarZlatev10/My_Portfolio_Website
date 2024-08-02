@@ -44,7 +44,7 @@ const links = [
 </script>
 
 <template>
-    <nav class="bg-gray-800 sticky top-0 text-gray-100 border-b border-gray-600 z-10">
+    <nav class="bg-gray-900 sticky top-0 text-gray-100 border-b border-gray-800 z-10">
         <div class="container mx-auto px-4 py-4 flex items-center justify-between">
             <div class="text-2xl font-bold">
                 <NuxtLink to="/" class="text-gray-100 hover:text-gray-300">Dimitar Zlatev</NuxtLink>
@@ -58,7 +58,7 @@ const links = [
                 <UIcon :name="isMobileMenuOpen ? 'i-heroicons-x-mark' : 'i-heroicons-bars-3'" class="w-8 h-8" />
             </button>
         </div>
-        <div v-if="isMobileMenuOpen" class="md:hidden bg-gray-800 text-gray-100">
+        <div v-if="isMobileMenuOpen" class="md:hidden bg-gray-900 text-gray-100">
             <div class="p-4">
                 <UVerticalNavigation @click="isMobileMenuOpen = !isMobileMenuOpen" :links="links" class="space-y-4" />
             </div>

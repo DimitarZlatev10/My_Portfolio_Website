@@ -100,10 +100,10 @@ const links = [
 }
 
 .animate-fade-in {
-    animation: fadeIn 2s ease-out forwards;
+    animation: fadeIn 1s ease-out forwards;
 }
 
 .animation-delay-2 {
-    animation-delay: 2s;
+    animation-delay: 1s;
 }
 </style>

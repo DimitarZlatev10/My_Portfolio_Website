@@ -1,56 +1,5 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  // app: {
-  //   head: {
-  //     title: "Dimitar Zlatev | Full Stack Developer",
-  //     htmlAttrs: {
-  //       lang: "en",
-  //     },
-  //     meta: [
-  //       {
-  //         name: "description",
-  //         content: "Showcase of my work in web development.",
-  //       },
-  //       { property: "og:title", content: "Dimitar Zlatev" },
-  //       {
-  //         property: "og:description",
-  //         content: "Explore my projects and skills in web development.",
-  //       },
-  //       {
-  //         property: "og:image",
-  //         content:
-  //           "https://master--dimitarzlatev.netlify.app/images/HomeImage.png",
-  //       },
-  //       {
-  //         property: "og:url",
-  //         content: "https://master--dimitarzlatev.netlify.app/",
-  //       },
-  //       { property: "og:type", content: "website" },
-  //       { name: "theme-color", content: "#1abc9c" },
-  //     ],
-  //     link: [{ rel: "apple-touch-icon", href: "/apple-touch-icon.png" }],
-  //     script: [
-  //       {
-  //         src: "https://www.googletagmanager.com/gtag/js?id=G-YY71QT7KST",
-  //         async: true,
-  //       },
-  //       {
-  //         hid: "google-analytics",
-  //         innerHTML: `
-  //           window.dataLayer = window.dataLayer || [];
-  //           function gtag(){dataLayer.push(arguments);}
-  //           gtag('js', new Date());
-  //           gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
-  //         `,
-  //         type: "text/javascript",
-  //         charset: "utf-8",
-  //       },
-  //     ],
-  //     __dangerouslyDisableSanitizersByTagID: {
-  //       "google-analytics": ["innerHTML"],
-  //     },
-  //   },
-  // },
   app: {
     head: {
       // title: "Dimitar Zlatev | Full Stack Developer",
@@ -84,6 +33,10 @@ export default defineNuxtConfig({
       link: [
         { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
         { rel: "icon", href: "/favicon.ico" },
+        {
+          rel: "stylesheet",
+          href: "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap",
+        },
       ],
       script: [
         {

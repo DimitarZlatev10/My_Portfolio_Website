@@ -1,7 +1,7 @@
 <template>
     <footer class="bg-gray-900 text-white py-4">
         <div class="text-center flex flex-col md:flex-row justify-evenly items-center">
-            <NuxtLink class="text-2xl font-bold" to="/">Dimitar Zlatev</NuxtLink>
+            <NuxtLink to="/" class="text-gray-100 text-2xl font-bold hover:text-gray-300">Dimitar Zlatev</NuxtLink>
             <p>&copy; 2024 Dimitar Zlatev. All rights reserved.</p>
             <div class="flex justify-center mt-2">
                 <NuxtLink aria-label="Visit Dimitar Zlatev's GitHub profile" target="_blank"
