@@ -45,7 +45,7 @@ const jobs = [
 <template>
     <div class="bg-gradient-to-r from-blue-500 via-pink-500 to-purple-500 min-h-screen p-6">
         <div class="max-w-4xl mx-auto animate-fade-in animation-delay-1">
-            <h1 class="text-4xl font-bold text-center text-white mb-8">My Experience</h1>
+            <h1 class="text-4xl font-bold text-center text-white mb-8">My Professional Experience</h1>
             <div class="space-y-12">
                 <ExperienceCard :jobs="jobs"></ExperienceCard>
             </div>

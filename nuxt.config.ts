@@ -33,14 +33,11 @@ export default defineNuxtConfig({
       link: [
         { rel: "apple-touch-icon", href: "/apple-touch-icon.png" },
         { rel: "icon", href: "/favicon.ico" },
-        {
-          rel: "stylesheet",
-          href: "https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap",
-        },
       ],
       script: [
         {
-          src: "https://www.googletagmanager.com/gtag/js?id=G-YY71QT7KST",
+          src: "ttps://www.googletagmanager.com/gtag/js?id=G-YY71QT7KST",
+          defer: true,
           async: true,
         },
         {

@@ -10,7 +10,8 @@ const projects = [
     {
         image: {
             imagePath: '/images/AlexaCleaning.png',
-            alt: "Alexa Cleaning Image"
+            alt: "Alexa Cleaning Image",
+            title: "Alexa Cleaning"
         },
         url: "https://alexacleaning.bg/",
         name: "Alexa Cleaning",
@@ -27,7 +28,9 @@ const projects = [
     {
         image: {
             imagePath: '/images/KVMExtreme.png',
-            alt: "KVM Extreme Image"
+            alt: "KVM Extreme Image",
+            title: "KVM Extreme"
+
         },
         name: "KVM Extreme",
         url: "https://kvmextreme.bg/",
@@ -44,7 +47,9 @@ const projects = [
     {
         image: {
             imagePath: '/images/BilkoviTinkturi.png',
-            alt: "Bilkovi Tinkturi Image"
+            alt: "Bilkovi Tinkturi Image",
+            title: "Bilkovi Tinkturi"
+
         },
         name: "Bilkovi Tinkturi",
         url: "https://bilkovitinkturi.bg/",
@@ -58,7 +63,9 @@ const projects = [
     {
         image: {
             imagePath: '/images/DataBridge Commerce.png',
-            alt: "DataBridge Commerce Image"
+            alt: "DataBridge Commerce Image",
+            title: "DataBridge Commerce"
+
         },
         name: "DataBridge Commerce",
         url: "https://apps.shopify.com/content-exporter",
@@ -78,7 +85,7 @@ const projects = [
 <template>
     <div class="bg-gradient-to-r from-blue-500 via-pink-500 to-purple-500 min-h-screen">
         <div class="container mx-auto p-4 animate-fade-in animation-delay-1">
-            <h1 class="text-4xl font-bold text-center mb-8">My Projects</h1>
+            <h1 class="text-4xl font-bold text-center mb-8">Showcase of My Web Development Projects</h1>
             <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 mx-auto">
                 <ProjectsCard :projects="projects"></ProjectsCard>
             </div>

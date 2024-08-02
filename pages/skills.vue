@@ -112,13 +112,13 @@ const backEndSkills = [
     },
     {
         name: "Filament PHP",
-        svg: ` <img class="XNo5Ab"
+        svg: ` <img width="39px" height="39px" class="XNo5Ab"
                     src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAASFBMVEVHcEz9sVD9sE39sE7/w3b9sE3/w3b+sE7/vWv/vmz/w3X+sVD/tlr/v2v+umMBAwcPFhspKSjKlVNZRCp6XDeyhEvkpVaUbj47XQHCAAAACnRSTlMAljcqlog88PANAXe4rgAAAS9JREFUKJF1ku12hCAMRNPWXV2EBAkf7/+mnQS37Z6tIyLMnQR+SESPZQtv2pYHQfd3MnVH3RUL4UHLNVzo97xSj+OoJYSm2v1cwJRshJrBjtzCwEKDebQ5SqEZyzmnoBYKZgNOGRql1RAUkeHeE/YM5vHEY5T0F1rX3Kc1IyfklEpRwAKhsCDE/tDGkEi2y4jUlIY0IyaDqQiIU/hcZQCkE3KpdkOttXZO6CLMZ2W0WJNZZW2y8g9kBlbA7obFKix7aOUYI9t5toCl0hxhoC3mjri6E6uK9DhFq81FRIbvcVct8QUOwOb7Pg6prxCtzl7oMaxyPyG+YOLGXqrHdh8OO5jGHUJMdX+KVkzN72PbbvfyFN6Vbr6czmk+9UG0Xwq/9dcV+7Rfnm7rP7qh7htvpycDeF4BigAAAABJRU5ErkJggg=="
-                    style="height:26px;width:26px" alt="" data-csiid="KBGqZruNGuvq7_UPhNfo4QU_9" data-atf="1">`
+                    style="height:39px;width:39px" alt="Filament Logo Image" data-csiid="KBGqZruNGuvq7_UPhNfo4QU_9" data-atf="1">`
     },
     {
         name: "GraphQL",
-        svg: `<img class="XNo5Ab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAANlBMVEVHcEzhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJgfniGZAAAAEnRSTlMABj6eKdH/VvGtG4bC4GcQdI9tGCLHAAAA7UlEQVR4AYWTgarGIAhGNVf+lmp7/5e9LcYiuGOHQdtOSHwabCDCK4kovbkjl5KPF8m/Un78UlQuKf8Vrk3JVI201e2/e3DW5FqretLM4X7vOHRUyzxWBmA9gPOor8dzjpIAGwVAUENI5TlZsvFaIcn8ZElQx3ZLU0Y3c4jzDBjM1c16wCSkIbAmmCRlwCa3A6R+bYCbS3RCWNJzhZuafZdhDA9ssSRQPwWXRDmXDJK9GUcWitt1KwobWqzHCsE3ZggrPiV5IJ3xreDN8cFtBf+0DAHHs1q2qC2fLuJnbvV7TD4G7GM0P4b6/Tr8Af9eC0w/Yd7PAAAAAElFTkSuQmCC" style="height:26px;width:26px" alt="" data-csiid="lxGqZo_NOPu4i-gPnufw2Q0_9" data-atf="1">`
+        svg: `<img width="39px" height="39px" class="XNo5Ab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAANlBMVEVHcEzhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJjhAJgfniGZAAAAEnRSTlMABj6eKdH/VvGtG4bC4GcQdI9tGCLHAAAA7UlEQVR4AYWTgarGIAhGNVf+lmp7/5e9LcYiuGOHQdtOSHwabCDCK4kovbkjl5KPF8m/Un78UlQuKf8Vrk3JVI201e2/e3DW5FqretLM4X7vOHRUyzxWBmA9gPOor8dzjpIAGwVAUENI5TlZsvFaIcn8ZElQx3ZLU0Y3c4jzDBjM1c16wCSkIbAmmCRlwCa3A6R+bYCbS3RCWNJzhZuafZdhDA9ssSRQPwWXRDmXDJK9GUcWitt1KwobWqzHCsE3ZggrPiV5IJ3xreDN8cFtBf+0DAHHs1q2qC2fLuJnbvV7TD4G7GM0P4b6/Tr8Af9eC0w/Yd7PAAAAAElFTkSuQmCC" style="height:39px;width:39px" alt="GraphQL Logo Image" data-csiid="lxGqZo_NOPu4i-gPnufw2Q0_9" data-atf="1">`
     },
 
 ]
@@ -133,7 +133,7 @@ const otherSkills = [
     },
     {
         name: "LangChain",
-        svg: `<img class="XNo5Ab" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEUcPDwRNjYAMC8AKSd2goaZoaapr7T//v/g4ej49/+/xMn8+/8AFRNAVliSm6BUZWfLztSDUJcgAAAAu0lEQVR4AdWRR2JFIQhFLcgF+/5XG54lPZn/M+Qo1b0iPnzBf1LRU/oC+fjuGD/gY4NANUvRSwEUEta/DAXVKtchxSaKbH99gwWaC4Tzrw/NFkTzLvCTDxxiXxbcJlChhYOL85FlRhcTzJEnJ9SxQkuatQpVSkkE3ytBlwy8pdUPA2gCbWxupV0NGRhuVEEnGad483sUgynlScV6Xf/WKHcJhmh5SqEsJ+Hz+iz6Y31n8f0L5ON/J3tB3gAtjgsX/sngiAAAAABJRU5ErkJggg==" style="height:26px;width:26px" alt="" data-csiid="txGqZu2CBrWri-gP8quHSA_9" data-atf="1">`
+        svg: `<img class="XNo5Ab" width="39px" height="39px" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAMAAABF0y+mAAAAM1BMVEUcPDwRNjYAMC8AKSd2goaZoaapr7T//v/g4ej49/+/xMn8+/8AFRNAVliSm6BUZWfLztSDUJcgAAAAu0lEQVR4AdWRR2JFIQhFLcgF+/5XG54lPZn/M+Qo1b0iPnzBf1LRU/oC+fjuGD/gY4NANUvRSwEUEta/DAXVKtchxSaKbH99gwWaC4Tzrw/NFkTzLvCTDxxiXxbcJlChhYOL85FlRhcTzJEnJ9SxQkuatQpVSkkE3ytBlwy8pdUPA2gCbWxupV0NGRhuVEEnGad483sUgynlScV6Xf/WKHcJhmh5SqEsJ+Hz+iz6Y31n8f0L5ON/J3tB3gAtjgsX/sngiAAAAABJRU5ErkJggg==" style="height:26px;width:26px" alt="" data-csiid="txGqZu2CBrWri-gP8quHSA_9" data-atf="1">`
     },
     {
         name: "Shopify",
@@ -146,7 +146,7 @@ const otherSkills = [
     <div class="bg-gradient-to-r to-blue-500 from-purple-500 min-h-screen">
         <div class="container mx-auto p-6">
             <div class="space-y-12 animate-fade-in animation-delay-1">
-                <h1 class="text-4xl font-bold text-center mb-12">My Skills</h1>
+                <h1 class="text-4xl font-bold text-center mb-12">My Full Stack Development Skills</h1>
                 <SkillSection :skills="frontEndSkills" :skillsName="'Front-end Skills'"></SkillSection>
                 <SkillSection :skills="backEndSkills" :skillsName="'Back-end Skills'"></SkillSection>
                 <SkillSection :skills="otherSkills" :skillsName="'Other Skills'"></SkillSection>

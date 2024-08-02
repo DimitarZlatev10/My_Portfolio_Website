@@ -14,8 +14,9 @@ const { projects } = props;
     <div class="bg-black rounded-lg shadow-md overflow-hidden" v-for="project in projects">
         <NuxtLink :to="project.url" target="_blank">
             <div class="overflow-hidden relative">
-                <img class="transition-transform duration-300 ease-in-out transform hover:scale-110 w-full"
-                    :src="project.image.imagePath" :alt="project.image.alt">
+                <NuxtImg width="1059" height="568" format="webp" :src="project.image.imagePath" :alt="project.image.alt"
+                    :title="project.image.title" loading="lazy"
+                    class="transition-transform duration-300 ease-in-out transform hover:scale-110 w-full" />
             </div>
         </NuxtLink>
         <div class="p-6 bg-black rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">
