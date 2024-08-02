@@ -2,7 +2,9 @@
 useHead({
     title: 'Home',
     meta: [
-        { name: 'description', content: 'Home Page of my Portfolio Website.' }
+        {
+            name: 'description', content: `Welcome to the portfolio of Dimitar Zlatev, a full stack developer.
+             Explore my skills, projects, and professional journey in web development.` }
     ]
 })
 
@@ -74,8 +76,9 @@ const links = [
                     </div>
                 </div>
                 <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center animate-fade-in animation-delay-1">
-                    <NuxtImg sizes="384px" src="/images/Me.webp" alt="Image of Myself" width="384" height="384"
-                        class="rounded-full shadow-lg w-96 h-96 object-cover" />
+                    <NuxtImg sizes="384px" src="/images/Me.webp" alt="Image of Myself" title="Image of Dimitar Zlatev"
+                        width="384" height="384" loading="eager" class="rounded-full shadow-lg w-96 h-96 object-cover"
+                        priority />
                 </div>
             </div>
         </div>
