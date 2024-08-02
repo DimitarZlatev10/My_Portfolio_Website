@@ -39,18 +39,6 @@ const links = [
         icon: 'i-heroicons-envelope',
         to: 'contact'
     }]
-    //  [
-    //     {
-    //         icon: 'i-bxl:github',
-    //         to: 'https://github.com/DimitarZlatev10',
-    //         target: '_blank'
-    //     },
-    //     {
-    //         icon: 'i-logos:linkedin-icon',
-    //         to: 'https://www.linkedin.com/in/dimitar-zlatev-65b14225b/',
-    //         target: '_blank'
-    //     }
-    // ]
 ]
 
 </script>
@@ -64,9 +52,11 @@ const links = [
             <div class="hidden md:flex space-x-6">
                 <UHorizontalNavigation :links="links" class="space-x-4" />
             </div>
-            <button @click="isMobileMenuOpen = !isMobileMenuOpen" class="md:hidden focus:outline-none">
+            <button @click="isMobileMenuOpen = !isMobileMenuOpen" class="md:hidden focus:outline-none"
+                :aria-label="isMobileMenuOpen ? 'Close menu' : 'Open menu'">
                 <UIcon :name="isMobileMenuOpen ? 'i-heroicons-x-mark' : 'i-heroicons-bars-3'" class="w-8 h-8" />
             </button>
+
         </div>
         <div v-if="isMobileMenuOpen" class="md:hidden bg-gray-900 text-white">
             <div class="p-4">
