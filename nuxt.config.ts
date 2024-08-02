@@ -53,7 +53,7 @@ export default defineNuxtConfig({
   // },
   app: {
     head: {
-      title: "Dimitar Zlatev | Full Stack Developer",
+      // title: "Dimitar Zlatev | Full Stack Developer",
       htmlAttrs: {
         lang: "en",
       },
