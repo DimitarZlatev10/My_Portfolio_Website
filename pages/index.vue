@@ -78,8 +78,10 @@ const links = [
                     </div>
                 </div>
                 <div class="md:w-1/2 mt-8 md:mt-0 flex justify-center animate-fade-in animation-delay-1">
-                    <NuxtImg src="/images/Me.avif" alt="Image of Dimitar Zlatev" title="Dimitar Zlatev" width="384"
-                        height="384" loading="eager" class="rounded-full shadow-lg w-96 h-96 object-cover" priority />
+                    <NuxtImg src="/images/Me.avif" srcset="/images/Me.avif?w=384 384w, /images/Me.avif?w=768 768w"
+                        sizes="(max-width: 768px) 100vw, 50vw" alt="Image of Dimitar Zlatev" title="Dimitar Zlatev"
+                        width="384" height="384" loading="eager" class="rounded-full shadow-lg w-96 h-96 object-cover"
+                        priority />
 
                 </div>
             </div>
