@@ -1,8 +1,8 @@
 <script setup lang="ts">
 useHead({
-    title: 'Skills',
+    title: 'Dimitar Zlatev | Full Stack Developer Skills and Expertise',
     meta: [
-        { name: 'description', content: 'Skills Page of my Portfolio Website.' }
+        { name: 'description', content: 'Explore the technical skills and expertise of Dimitar Zlatev, a full stack developer with proficiency in modern web technologies and development practices.' }
     ]
 })
 

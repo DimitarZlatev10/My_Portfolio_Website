@@ -1,8 +1,8 @@
 <script setup lang="ts">
 useHead({
-    title: 'Projects',
+    title: 'Projects | Dimitar Zlatev, Full Stack Developer',
     meta: [
-        { name: 'description', content: 'Projects Page of my Portfolio Website.' }
+        { name: 'description', content: 'Browse the portfolio of Dimitar Zlatev, showcasing a range of projects from innovative web solutions to complex applications. See my work in action.' }
     ]
 })
 

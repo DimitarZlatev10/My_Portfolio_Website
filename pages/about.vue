@@ -1,9 +1,9 @@
 <script setup>
 
 useHead({
-    title: 'About',
+    title: 'About Dimitar Zlatev | Full Stack Developer',
     meta: [
-        { name: 'description', content: 'About Page of my Portfolio Website.' }
+        { name: 'description', content: 'Discover the portfolio of Dimitar Zlatev, a full stack developer skilled in building dynamic, responsive websites and applications with a focus on user experience.' }
     ]
 })
 

@@ -1,8 +1,8 @@
 <script setup lang="ts">
 useHead({
-    title: 'Contact',
+    title: 'Contact Me | Dimitar Zlatev, Full Stack Developer',
     meta: [
-        { name: 'description', content: 'Contact Page of my Portfolio Website.' },
+        { name: 'description', content: 'Get in touch with Dimitar Zlatev to discuss potential projects, job opportunities, or collaborations. Reach out via the contact form or listed methods.' },
     ],
 });
 </script>

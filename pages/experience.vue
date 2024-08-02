@@ -1,8 +1,8 @@
 <script setup>
 useHead({
-    title: 'Experience',
+    title: 'Experience | Dimitar Zlatev, Full Stack Developer',
     meta: [
-        { name: 'description', content: 'Experience Page of my Portfolio Website.' }
+        { name: 'description', content: 'Learn about the professional experience of Dimitar Zlatev, including key roles, achievements, and contributions in the field of full stack development.' }
     ]
 })
 

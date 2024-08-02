@@ -1,8 +1,8 @@
 <script setup lang="ts">
 useHead({
-    title: 'Thanks',
+    title: 'Thank You | Dimitar Zlatev | Full Stack Developer',
     meta: [
-        { name: 'description', content: 'Thanks Page of my Portfolio Website.' },
+        { name: 'description', content: 'Thank you for reaching out! Dimitar Zlatev appreciates your message and will get back to you soon. Stay tuned for a response' },
     ],
 });
 

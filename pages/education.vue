@@ -1,9 +1,9 @@
 <script setup>
 
 useHead({
-    title: 'Education',
+    title: 'Dimitar Zlatev | Education and Academic Background',
     meta: [
-        { name: 'description', content: 'Education Page of my Portfolio Website.' }
+        { name: 'description', content: 'Discover the educational background of Dimitar Zlatev, including degrees and certifications relevant to full stack development and technology."' }
     ]
 })
 

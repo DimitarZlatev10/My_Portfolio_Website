@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-    title: 'Home',
+    title: 'Dimitar Zlatev | Full Stack Developer Portfolio',
     meta: [
         {
             name: 'description', content: `Welcome to the portfolio of Dimitar Zlatev, a full stack developer.
@@ -86,7 +86,6 @@ const links = [
         </div>
     </div>
 </template>
-
 
 <style>
 @keyframes fadeIn {
