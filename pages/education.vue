@@ -23,7 +23,7 @@ const education = [
             {
                 name: "Programming Basics",
                 issued: "Dec 2021",
-                image: "/images/Basics-JS.png",
+                image: "/images/Basics-JS.avif",
                 alt: "Programming Basics Certificate Image",
                 title: "Programming Basics",
                 link: "https://softuni.bg/certificates/details/121499/d73dc65a"
@@ -31,7 +31,7 @@ const education = [
             {
                 name: "Programming Fundamentals with JS",
                 issued: "Apr 2022",
-                image: "/images/Fundamentals-JS.png",
+                image: "/images/Fundamentals-JS.avif",
                 alt: "Programming Fundamentals with JS Certificate Image",
                 title: "Programming Fundamentals with JS",
                 link: "https://softuni.bg/certificates/details/129430/879fcd1a"
@@ -39,7 +39,7 @@ const education = [
             {
                 name: "JS Advanced",
                 issued: "Jun 2022",
-                image: "/images/Advanced-JS.png",
+                image: "/images/Advanced-JS.avif",
                 alt: "JS Advanced Certificate Image",
                 title: "JS Advanced",
                 link: "https://softuni.bg/certificates/details/136720/1e3a194e"
@@ -47,7 +47,7 @@ const education = [
             {
                 name: "JS Applications",
                 issued: "Aug 2022",
-                image: "/images/Applications-JS.png",
+                image: "/images/Applications-JS.avif",
                 alt: "JS Applications Certificate Image",
                 title: "JS Applications",
                 link: "https://softuni.bg/certificates/details/139802/83098f5d"
@@ -55,7 +55,7 @@ const education = [
             {
                 name: "JS Back-End",
                 issued: "Nov 2022",
-                image: "/images/BackEnd-JS.png",
+                image: "/images/BackEnd-JS.avif",
                 alt: "JS Back-End Certificate Image",
                 title: "JS Back-End",
                 link: "https://softuni.bg/certificates/details/146825/baac7e1b"
@@ -63,7 +63,7 @@ const education = [
             {
                 name: "Angular",
                 issued: "Dec 2022",
-                image: "/images/Angular-JS.png",
+                image: "/images/Angular-JS.avif",
                 alt: "Angular Certificate Image",
                 title: "Angular",
                 link: "https://softuni.bg/certificates/details/152903/87b9c97c"

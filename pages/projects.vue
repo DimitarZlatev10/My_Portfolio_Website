@@ -9,7 +9,7 @@ useHead({
 const projects = [
     {
         image: {
-            imagePath: '/images/AlexaCleaning.png',
+            imagePath: '/images/AlexaCleaning.avif',
             alt: "Alexa Cleaning Image",
             title: "Alexa Cleaning"
         },
@@ -27,7 +27,7 @@ const projects = [
     },
     {
         image: {
-            imagePath: '/images/KVMExtreme.png',
+            imagePath: '/images/KVMExtreme.avif',
             alt: "KVM Extreme Image",
             title: "KVM Extreme"
 
@@ -46,7 +46,7 @@ const projects = [
     },
     {
         image: {
-            imagePath: '/images/BilkoviTinkturi.png',
+            imagePath: '/images/BilkoviTinkturi.avif',
             alt: "Bilkovi Tinkturi Image",
             title: "Bilkovi Tinkturi"
 
@@ -62,7 +62,7 @@ const projects = [
     },
     {
         image: {
-            imagePath: '/images/DataBridge Commerce.png',
+            imagePath: '/images/DataBridge Commerce.avif',
             alt: "DataBridge Commerce Image",
             title: "DataBridge Commerce"
 

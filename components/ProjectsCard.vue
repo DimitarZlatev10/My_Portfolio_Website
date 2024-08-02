@@ -11,11 +11,12 @@ const { projects } = props;
 </script>
 
 <template>
-    <div class="bg-black rounded-lg shadow-md overflow-hidden" v-for="project in projects">
+    <div class="bg-black rounded-lg shadow-md overflow-hidden" v-for="(project, index) in projects">
         <NuxtLink :to="project.url" target="_blank">
             <div class="overflow-hidden relative">
                 <NuxtImg width="1059" height="568" format="webp" :src="project.image.imagePath" :alt="project.image.alt"
-                    :title="project.image.title" loading="lazy"
+                    :title="project.image.title" :loading="index === 0 ? 'eager' : 'lazy'"
+                    :srcset="`${project.image.imagePath}?w=320 320w, ${project.image.imagePath}?w=640 640w, ${project.image.imagePath}?w=1059 1059w`"
                     class="transition-transform duration-300 ease-in-out transform hover:scale-110 w-full" />
             </div>
         </NuxtLink>
