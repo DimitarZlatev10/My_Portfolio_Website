@@ -3,8 +3,68 @@
 useHead({
     title: 'Dimitar Zlatev | Education and Academic Background',
     meta: [
-        { name: 'description', content: 'Discover the educational background of Dimitar Zlatev, including degrees and certifications relevant to full stack development and technology."' }
-    ]
+        {
+            name: 'description',
+            content: 'Discover the educational background of Dimitar Zlatev, including degrees and certifications relevant to full stack development and technology.'
+        },
+        { property: 'og:title', content: 'Dimitar Zlatev | Education and Academic Background' },
+        {
+            property: 'og:description',
+            content: 'Discover the educational background of Dimitar Zlatev, including degrees and certifications relevant to full stack development and technology.'
+        },
+        {
+            property: 'og:image',
+            content: 'https://master--dimitarzlatev.netlify.app/images/educationImage.png'
+        },
+        {
+            property: 'og:url',
+            content: 'https://master--dimitarzlatev.netlify.app/education'
+        },
+        { property: 'og:type', content: 'website' },
+        { name: 'theme-color', content: '#1abc9c' }
+    ],
+    link: [
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+        { rel: 'icon', href: '/favicon.ico' }
+    ],
+    script: [
+        {
+            type: 'application/ld+json',
+            innerHTML: `
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Dimitar Zlatev | Education and Academic Background",
+        "description": "Discover the educational background of Dimitar Zlatev, including degrees and certifications relevant to full stack development and technology.",
+        "url": "https://master--dimitarzlatev.netlify.app/education",
+        "author": {
+          "@type": "Person",
+          "name": "Dimitar Zlatev",
+          "url": "https://master--dimitarzlatev.netlify.app/"
+        }
+      }
+      `
+        },
+        {
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-YY71QT7KST',
+            defer: true,
+            async: true
+        },
+        {
+            hid: 'google-analytics',
+            innerHTML: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
+      `,
+            type: 'text/javascript'
+        }
+    ],
+    __dangerouslyDisableSanitizersByTagID: {
+        'json-ld': ['innerHTML'],
+        'google-analytics': ['innerHTML']
+    }
 })
 
 const education = [

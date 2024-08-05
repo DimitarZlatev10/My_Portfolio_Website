@@ -3,8 +3,68 @@
 useHead({
     title: 'About Dimitar Zlatev | Full Stack Developer',
     meta: [
-        { name: 'description', content: 'Discover the portfolio of Dimitar Zlatev, a full stack developer skilled in building dynamic, responsive websites and applications with a focus on user experience.' }
-    ]
+        {
+            name: 'description',
+            content: 'Discover the portfolio of Dimitar Zlatev, a full stack developer skilled in building dynamic, responsive websites and applications with a focus on user experience.'
+        },
+        { property: 'og:title', content: 'About Dimitar Zlatev | Full Stack Developer' },
+        {
+            property: 'og:description',
+            content: 'Discover the portfolio of Dimitar Zlatev, a full stack developer skilled in building dynamic, responsive websites and applications with a focus on user experience.'
+        },
+        {
+            property: 'og:image',
+            content: 'https://master--dimitarzlatev.netlify.app/images/aboutImage.png'
+        },
+        {
+            property: 'og:url',
+            content: 'https://master--dimitarzlatev.netlify.app/about'
+        },
+        { property: 'og:type', content: 'website' },
+        { name: 'theme-color', content: '#1abc9c' }
+    ],
+    link: [
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+        { rel: 'icon', href: '/favicon.ico' }
+    ],
+    script: [
+        {
+            type: 'application/ld+json',
+            innerHTML: `
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "About Dimitar Zlatev | Full Stack Developer",
+        "description": "Discover the portfolio of Dimitar Zlatev, a full stack developer skilled in building dynamic, responsive websites and applications with a focus on user experience.",
+        "url": "https://master--dimitarzlatev.netlify.app/about",
+        "author": {
+          "@type": "Person",
+          "name": "Dimitar Zlatev",
+          "url": "https://master--dimitarzlatev.netlify.app/"
+        }
+      }
+      `
+        },
+        {
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-YY71QT7KST',
+            defer: true,
+            async: true
+        },
+        {
+            hid: 'google-analytics',
+            innerHTML: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
+      `,
+            type: 'text/javascript'
+        }
+    ],
+    __dangerouslyDisableSanitizersByTagID: {
+        'json-ld': ['innerHTML'],
+        'google-analytics': ['innerHTML']
+    }
 })
 
 </script>
@@ -12,7 +72,7 @@ useHead({
 <template>
     <div class="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-purple-500 text-white">
         <div class="max-w-4xl mx-auto p-6 space-y-6 animate-fade-in animation-delay-1">
-            <h1 class="text-4xl font-bold mb-4 text-center">About Me</h1>
+            <h1 class="text-4xl font-bold mb-4 text-center">About Dimitar Zlatev: Full Stack Developer</h1>
             <p class="text-lg leading-relaxed">Hi, I'm Dimitar Zlatev!</p>
             <p class="text-lg leading-relaxed">
                 I am a 22-year-old programmer with a passion for crafting elegant and efficient code. My journey in

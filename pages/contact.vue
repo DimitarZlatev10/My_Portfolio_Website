@@ -2,15 +2,75 @@
 useHead({
     title: 'Contact Me | Dimitar Zlatev, Full Stack Developer',
     meta: [
-        { name: 'description', content: 'Get in touch with Dimitar Zlatev to discuss potential projects, job opportunities, or collaborations. Reach out via the contact form or listed methods.' },
+        {
+            name: 'description',
+            content: 'Get in touch with Dimitar Zlatev to discuss potential projects, job opportunities, or collaborations. Reach out via the contact form or listed methods.'
+        },
+        { property: 'og:title', content: 'Contact Me | Dimitar Zlatev, Full Stack Developer' },
+        {
+            property: 'og:description',
+            content: 'Get in touch with Dimitar Zlatev to discuss potential projects, job opportunities, or collaborations. Reach out via the contact form or listed methods.'
+        },
+        {
+            property: 'og:image',
+            content: 'https://master--dimitarzlatev.netlify.app/images/contactImage.png'
+        },
+        {
+            property: 'og:url',
+            content: 'https://master--dimitarzlatev.netlify.app/contact'
+        },
+        { property: 'og:type', content: 'website' },
+        { name: 'theme-color', content: '#1abc9c' }
     ],
-});
+    link: [
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+        { rel: 'icon', href: '/favicon.ico' }
+    ],
+    script: [
+        {
+            type: 'application/ld+json',
+            innerHTML: `
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Contact Me | Dimitar Zlatev, Full Stack Developer",
+        "description": "Get in touch with Dimitar Zlatev to discuss potential projects, job opportunities, or collaborations. Reach out via the contact form or listed methods.",
+        "url": "https://master--dimitarzlatev.netlify.app/contact",
+        "author": {
+          "@type": "Person",
+          "name": "Dimitar Zlatev",
+          "url": "https://master--dimitarzlatev.netlify.app/"
+        }
+      }
+      `
+        },
+        {
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-YY71QT7KST',
+            defer: true,
+            async: true
+        },
+        {
+            hid: 'google-analytics',
+            innerHTML: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
+      `,
+            type: 'text/javascript'
+        }
+    ],
+    __dangerouslyDisableSanitizersByTagID: {
+        'json-ld': ['innerHTML'],
+        'google-analytics': ['innerHTML']
+    }
+})
 </script>
 
 <template>
     <div class="bg-gradient-to-r from-purple-500 to-blue-500 min-h-screen flex flex-col items-center py-6">
         <h1 class="text-3xl md:text-4xl font-bold text-center text-white mb-6 md:mb-12">
-            Contact Me
+            Contact Dimitar Zlatev: Get in Touch
         </h1>
         <div class="w-full px-4 md:px-8 flex justify-center">
             <div class="w-full max-w-md md:max-w-lg lg:max-w-2xl bg-black rounded-lg shadow-lg p-6 space-y-6">

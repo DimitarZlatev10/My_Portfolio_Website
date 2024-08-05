@@ -13,6 +13,7 @@ if (!formSubmitted.value) {
 }
 </script>
 
+
 <template>
     <div
         class="bg-gradient-to-r to-blue-500 from-purple-500 min-h-screen flex flex-col justify-center items-center text-center p-6 space-y-6">

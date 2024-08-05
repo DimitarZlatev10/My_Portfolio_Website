@@ -2,8 +2,68 @@
 useHead({
     title: 'Dimitar Zlatev | Full Stack Developer Skills and Expertise',
     meta: [
-        { name: 'description', content: 'Explore the technical skills and expertise of Dimitar Zlatev, a full stack developer with proficiency in modern web technologies and development practices.' }
-    ]
+        {
+            name: 'description',
+            content: 'Explore the technical skills and expertise of Dimitar Zlatev, a full stack developer with proficiency in modern web technologies and development practices.'
+        },
+        { property: 'og:title', content: 'Dimitar Zlatev | Full Stack Developer Skills and Expertise' },
+        {
+            property: 'og:description',
+            content: 'Explore the technical skills and expertise of Dimitar Zlatev, a full stack developer with proficiency in modern web technologies and development practices.'
+        },
+        {
+            property: 'og:image',
+            content: 'https://master--dimitarzlatev.netlify.app/images/skillsImage.png'
+        },
+        {
+            property: 'og:url',
+            content: 'https://master--dimitarzlatev.netlify.app/skills'
+        },
+        { property: 'og:type', content: 'website' },
+        { name: 'theme-color', content: '#1abc9c' }
+    ],
+    link: [
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+        { rel: 'icon', href: '/favicon.ico' }
+    ],
+    script: [
+        {
+            type: 'application/ld+json',
+            innerHTML: `
+      {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "Dimitar Zlatev | Full Stack Developer Skills and Expertise",
+        "description": "Explore the technical skills and expertise of Dimitar Zlatev, a full stack developer with proficiency in modern web technologies and development practices.",
+        "url": "https://master--dimitarzlatev.netlify.app/skills",
+        "author": {
+          "@type": "Person",
+          "name": "Dimitar Zlatev",
+          "url": "https://master--dimitarzlatev.netlify.app/"
+        }
+      }
+      `
+        },
+        {
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-YY71QT7KST',
+            defer: true,
+            async: true
+        },
+        {
+            hid: 'google-analytics',
+            innerHTML: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
+      `,
+            type: 'text/javascript'
+        }
+    ],
+    __dangerouslyDisableSanitizersByTagID: {
+        'json-ld': ['innerHTML'],
+        'google-analytics': ['innerHTML']
+    }
 })
 
 const frontEndSkills = [

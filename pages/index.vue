@@ -3,9 +3,71 @@ useHead({
     title: 'Dimitar Zlatev | Full Stack Developer Portfolio',
     meta: [
         {
-            name: 'description', content: `Welcome to the portfolio of Dimitar Zlatev, a full stack developer.
-             Explore my skills, projects, and professional journey in web development.` }
-    ]
+            name: 'description',
+            content: 'Welcome to the portfolio of Dimitar Zlatev, a full stack developer. Explore my skills, projects, and professional journey in web development.'
+        },
+        { property: 'og:title', content: 'Dimitar Zlatev | Full Stack Developer Portfolio' },
+        {
+            property: 'og:description',
+            content: 'Welcome to the portfolio of Dimitar Zlatev, a full stack developer. Explore my skills, projects, and professional journey in web development.'
+        },
+        {
+            property: 'og:image',
+            content: 'https://master--dimitarzlatev.netlify.app/images/HomeImage.png'
+        },
+        {
+            property: 'og:url',
+            content: 'https://master--dimitarzlatev.netlify.app/'
+        },
+        { property: 'og:type', content: 'website' },
+        { name: 'theme-color', content: '#1abc9c' }
+    ],
+    link: [
+        { rel: 'apple-touch-icon', href: '/apple-touch-icon.png' },
+        { rel: 'icon', href: '/favicon.ico' }
+    ],
+    script: [
+        {
+            type: 'application/ld+json',
+            innerHTML: `
+      {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Dimitar Zlatev",
+        "jobTitle": "Full Stack Developer",
+        "url": "https://master--dimitarzlatev.netlify.app/",
+        "image": "https://master--dimitarzlatev.netlify.app/images/HomeImage.png",
+        "sameAs": [
+          "https://www.linkedin.com/in/dimitar-zlatev-65b14225b/",
+          "https://github.com/DimitarZlatev10"
+        ],
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Valdo 69"
+        }
+      }
+      `
+        },
+        {
+            src: 'https://www.googletagmanager.com/gtag/js?id=G-YY71QT7KST',
+            defer: true,
+            async: true
+        },
+        {
+            hid: 'google-analytics',
+            innerHTML: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
+      `,
+            type: 'text/javascript'
+        }
+    ],
+    __dangerouslyDisableSanitizersByTagID: {
+        'json-ld': ['innerHTML'],
+        'google-analytics': ['innerHTML']
+    }
 })
 
 const links = [
