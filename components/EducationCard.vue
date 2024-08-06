@@ -25,9 +25,8 @@ const props = defineProps({
                 class="flex flex-col md:flex-row items-start md:items-center space-y-4 md:space-y-0 md:space-x-4">
                 <a :href="cert.link" target="_blank" rel="noopener noreferrer" class="flex-shrink-0">
                     <div class="overflow-hidden relative">
-
                         <NuxtImg width="256" height="256" format="webp" :src="cert.image" :alt="cert.alt"
-                            :title="cert.title" loading="lazy"
+                            :title="cert.title" :loading="certIndex === 0 ? 'eager' : 'lazy'"
                             class="w-56 h-56 md:w-64 md:h-64 object-cover rounded-md shadow-md transition-transform duration-300 ease-in-out transform hover:scale-110" />
                     </div>
                 </a>

@@ -137,4 +137,18 @@ export default defineNuxtConfig({
     gmailEmail: process.env.GMAIL_EMAIL,
     gmailPass: process.env.GMAIL_PASS,
   },
+  vite: {
+    optimizeDeps: {
+      include: ["vue", "vue-router"],
+    },
+    build: {
+      rollupOptions: {
+        output: {
+          manualChunks: {
+            "vue-vendor": ["vue", "vue-router"],
+          },
+        },
+      },
+    },
+  },
 });

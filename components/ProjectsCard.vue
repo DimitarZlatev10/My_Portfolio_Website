@@ -17,7 +17,9 @@ const { projects } = props;
                 <NuxtImg width="1059" height="568" format="webp" :src="project.image.imagePath" :alt="project.image.alt"
                     :title="project.image.title" :loading="index === 0 ? 'eager' : 'lazy'"
                     :srcset="`${project.image.imagePath}?w=320 320w, ${project.image.imagePath}?w=640 640w, ${project.image.imagePath}?w=1059 1059w`"
-                    class="transition-transform duration-300 ease-in-out transform hover:scale-110 w-full" />
+                    sizes="(max-width: 320px) 320px, (max-width: 640px) 640px, 1059px"
+                    class="transition-transform duration-300 ease-in-out transform hover:scale-110 w-full"
+                    placeholder />
             </div>
         </NuxtLink>
         <div class="p-6 bg-black rounded-lg shadow-lg hover:shadow-xl transition-shadow duration-300">

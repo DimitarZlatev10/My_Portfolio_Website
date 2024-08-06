@@ -128,7 +128,7 @@ const links = [
                     <NuxtImg src="/images/Me.avif" srcset="/images/Me.avif?w=384 384w, /images/Me.avif?w=768 768w"
                         sizes="(max-width: 768px) 100vw, 50vw" alt="Image of Dimitar Zlatev" title="Dimitar Zlatev"
                         width="384" height="384" loading="eager" class="rounded-full shadow-lg w-96 h-96 object-cover"
-                        priority />
+                        priority placeholder />
 
                 </div>
             </div>
