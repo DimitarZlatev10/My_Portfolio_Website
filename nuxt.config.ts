@@ -38,7 +38,11 @@ export default defineNuxtConfig({
         { rel: "icon", href: "/favicon.ico" },
       ],
       script: [
-        // d
+        {
+          src: "https://www.googletagmanager.com/gtag/js?id=G-YY71QT7KST",
+          async: true,
+          type: "text/partytown",
+        },
         {
           hid: "google-analytics",
           innerHTML: `
@@ -78,6 +82,9 @@ export default defineNuxtConfig({
         "json-ld": ["innerHTML"],
       },
     },
+  },
+  partytown: {
+    forward: ["dataLayer.push"],
   },
   plugins: ["~/plugins/canonical.js"],
   sitemap: {
@@ -121,10 +128,8 @@ export default defineNuxtConfig({
       },
     ],
     "@nuxtjs/tailwindcss",
+    "@nuxtjs/partytown",
   ],
-  // router: {
-  //   middleware: ["checkFormSubmitted"],
-  // },
   image: {
     ipx: {},
     domains: ["https://master--dimitarzlatev.netlify.app"],
@@ -132,10 +137,10 @@ export default defineNuxtConfig({
       me: "/images/Me.webp",
     },
   },
-  build: {
-    extractCSS: true,
-    optimizeCSS: true,
-  },
+  // build: {
+  // extractCSS: true,
+  // optimizeCSS: true,
+  // },
   publicRuntimeConfig: {
     googleAnalyticsId: process.env.GOOGLE_ANALYTICS_ID,
   },

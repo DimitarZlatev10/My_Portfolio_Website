@@ -12,6 +12,7 @@
   "dependencies": {
     "@nuxt/image": "^1.7.0",
     "@nuxt/ui": "^2.18.2",
+    "@nuxtjs/partytown": "^1.5.0",
     "@nuxtjs/sitemap": "^6.0.0-beta.1",
     "@nuxtjs/tailwindcss": "^6.12.1",
     "dotenv": "^16.4.5",

@@ -44,11 +44,7 @@ useHead({
       }
       `
         },
-        {
-            src: 'https://www.googletagmanager.com/gtag/js?id=G-YY71QT7KST',
-            defer: true,
-            async: true
-        },
+
         {
             hid: 'google-analytics',
             innerHTML: `
