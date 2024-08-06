@@ -1,9 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  tailwindcss: {
-    cssPath: ["~/assets/css/main.css", { injectPosition: "first" }],
-    viewer: true,
-  },
+  // tailwindcss: {
+  //   cssPath: ["~/assets/css/tailwind.css", { injectPosition: "first" }],
+  //   configPath: "tailwind.config",
+  //   exposeConfig: {
+  //     level: 2,
+  //   },
+  //   viewer: true,
+  // },
   app: {
     head: {
       htmlAttrs: {
@@ -136,19 +140,5 @@ export default defineNuxtConfig({
   privateRuntimeConfig: {
     gmailEmail: process.env.GMAIL_EMAIL,
     gmailPass: process.env.GMAIL_PASS,
-  },
-  vite: {
-    optimizeDeps: {
-      include: ["vue", "vue-router"],
-    },
-    build: {
-      rollupOptions: {
-        output: {
-          manualChunks: {
-            "vue-vendor": ["vue", "vue-router"],
-          },
-        },
-      },
-    },
   },
 });
