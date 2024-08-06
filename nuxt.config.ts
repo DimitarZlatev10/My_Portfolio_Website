@@ -51,7 +51,7 @@ export default defineNuxtConfig({
             gtag('js', new Date());
             gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
           `,
-          type: "text/javascript",
+          type: "text/partytown",
           charset: "utf-8",
         },
         {
@@ -102,13 +102,6 @@ export default defineNuxtConfig({
   },
   compatibilityDate: "2024-04-03",
   devtools: { enabled: true },
-  // css: ["~/assets/css/main.css"],
-  // postcss: {
-  //   plugins: {
-  //     tailwindcss: {},
-  //     autoprefixer: {},
-  //   },
-  // },
   modules: [
     "@nuxt/ui",
     "@nuxtjs/sitemap",
@@ -137,10 +130,6 @@ export default defineNuxtConfig({
       me: "/images/Me.webp",
     },
   },
-  // build: {
-  // extractCSS: true,
-  // optimizeCSS: true,
-  // },
   publicRuntimeConfig: {
     googleAnalyticsId: process.env.GOOGLE_ANALYTICS_ID,
   },

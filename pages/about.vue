@@ -54,7 +54,7 @@ useHead({
       gtag('js', new Date());
       gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
       `,
-            type: 'text/javascript'
+            type: 'text/partytown'
         }
     ],
     __dangerouslyDisableSanitizersByTagID: {

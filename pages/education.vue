@@ -45,17 +45,6 @@ useHead({
       }
       `
         },
-
-        {
-            hid: 'google-analytics',
-            innerHTML: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
-      `,
-            type: 'text/javascript'
-        }
     ],
     __dangerouslyDisableSanitizersByTagID: {
         'json-ld': ['innerHTML'],

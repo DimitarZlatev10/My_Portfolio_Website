@@ -44,17 +44,6 @@ useHead({
       }
       `
         },
-
-        {
-            hid: 'google-analytics',
-            innerHTML: `
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', '${process.env.GOOGLE_ANALYTICS_ID}');
-      `,
-            type: 'text/javascript'
-        }
     ],
     __dangerouslyDisableSanitizersByTagID: {
         'json-ld': ['innerHTML'],
@@ -200,9 +189,9 @@ const otherSkills = [
 
 <template>
     <div class="bg-gradient-to-r to-blue-500 from-purple-500 min-h-screen">
-        <div class="container mx-auto p-6">
-            <div class="space-y-12 animate-fade-in animation-delay-1">
-                <h1 class="text-4xl font-bold text-center mb-12">My Full Stack Development Skills</h1>
+        <div class="container mx-auto p-6 animate-fade-in animation-delay-1">
+            <h1 class="text-4xl font-bold text-center mb-12">My Full Stack Development Skills</h1>
+            <div class="md:grid md:grid-cols-3 md:space-y-0 space-y-4 text-center">
                 <SkillSection :skills="frontEndSkills" :skillsName="'Front-end Skills'"></SkillSection>
                 <SkillSection :skills="backEndSkills" :skillsName="'Back-end Skills'"></SkillSection>
                 <SkillSection :skills="otherSkills" :skillsName="'Other Skills'"></SkillSection>
