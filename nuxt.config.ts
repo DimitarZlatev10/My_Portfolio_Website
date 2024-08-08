@@ -113,7 +113,7 @@ export default defineNuxtConfig({
     [
       "nuxt-mail",
       {
-        message: { to: "dimitarzlatev02@gmail.com" },
+        message: { to: process.env.GMAIL_EMAIL },
         smtp: {
           host: "smtp.gmail.com",
           port: 587,
